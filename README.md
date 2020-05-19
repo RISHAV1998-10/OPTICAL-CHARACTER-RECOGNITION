@@ -1,16 +1,16 @@
 # OPTICAL-CHARACTER-RECOGNITION
 
-OCR = Optical Character Recognition.
-<br>OCR systems transform a two-dimensional image of text, that could contain machine printed or handwritten text from its image representation into machine-readable text. OCR as a process generally consists of several sub-processes to perform as accurately as possible
- In other words, OCR systems transform a two-dimensional image of text, that could contain machine printed or handwritten text from its image representation into machine-readable text. OCR as a process generally consists of several sub-processes to perform as accurately as possible. The subprocesses are:
+OCR = Optical Character Recognition.<br>
+<p>OCR systems transform a two-dimensional image of text, that could contain machine printed or handwritten text from its image representation into machine-readable text. OCR as a process generally consists of several sub-processes to perform as accurately as possible.</p>
+<p>In other words, OCR systems transform a two-dimensional image of text, that could contain machine printed or handwritten text from its image representation into machine-readable text. OCR as a process generally consists of several sub-processes to perform as accurately as possible. The subprocesses are:
 
     * Preprocessing of the Image
     * Text Localization
     * Character Segmentation
     * Character Recognition
-    * Post Processing <br>
-    
-The sub-processes in the list above of course can differ, but these are roughly steps needed to approach automatic character recognition. In OCR software, it’s main aim to identify and capture all the unique words using different languages from written text characters.
+    * Post Processing 
+ </p>   
+<p>The sub-processes in the list above of course can differ, but these are roughly steps needed to approach automatic character recognition. In OCR software, it’s main aim to identify and capture all the unique words using different languages from written text characters.</p>
 
 
 ## OCR with Pytesseract and OpenCV<br>
@@ -19,4 +19,4 @@ The sub-processes in the list above of course can differ, but these are roughly 
 
 ## Shortcomings of this project
 * *The test in the image should be preferabbly in one column format.*
-* *After edge detection using canny edge detector, the OCR often confuses betewwn different characters and special characters like C and ( etc.*
+* *After edge detection using canny edge detector, the OCR often confuses betewwn different characters and special characters like 'C' and '(' etc.*
